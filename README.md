@@ -5,7 +5,7 @@
 2. **Clone this repository.** 
 3. **Make sure you're in the directory you just created.** 
 4. **Install Node Packages.** - `npm install`
-5. **Run the app.** - `npm start -s`
+5. **Run the app.** - `npm run build`
 6. **Install [React developer tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) and [Redux Dev Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)** in Chrome.
 
 ### Production Dependencies
