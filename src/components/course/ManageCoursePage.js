@@ -53,9 +53,9 @@ export class ManageCoursePage extends React.Component {
   saveCourse(e) {
     e.preventDefault();
 
-  if (!this.courseFormIsValid()) {
-    return;
-  }
+    if (!this.courseFormIsValid()) {
+      return;
+    }
 
     this.setState({
       saving:true
