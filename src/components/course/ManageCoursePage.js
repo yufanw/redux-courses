@@ -22,14 +22,6 @@ export class ManageCoursePage extends React.Component {
     this.redirect = this.redirect.bind(this);
   }
 
-  componentWillReceiveProps(newProps) {
-    if (this.props.course.id != newProps.course.id) {
-      this.setState({
-        course: Object.assign({}, newProps.course)
-      });
-    }
-  }
-
   updateCourseState(e) {
     const field = e.target.name;
     let course = Object.assign({}, this.state.course);
